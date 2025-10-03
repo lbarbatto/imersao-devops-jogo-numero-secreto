@@ -136,3 +136,11 @@ Este projeto está sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
 - **Config:** permitir ajustar intervalo (1–N)
 - **Analytics:** eventos básicos (acertos, tentativas)
 
+---
+
+## 👤 Autor
+
+[**Leopoldo Barbato**](https://github.com/lbarbatto)
+
+Projeto desenvolvido como parte do programa Santander Imersão Digital em parceria com a Alura.
+
