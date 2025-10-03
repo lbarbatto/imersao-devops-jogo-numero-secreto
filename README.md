@@ -112,6 +112,7 @@ Este projeto está sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
 Inclua aqui GIFs ou imagens do gameplay:
 - `img/screenshot-1.png`
 - `img/screenshot-2.png`
+- `img/screenshot-3.png`
 
 ---
 
