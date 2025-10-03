@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>JS Game</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container__conteudo">
+      <img src="./img/robot.png" alt="robô mergulhador" class="container__imagem-robo" />
+
+      <div class="container__informacoes">
+        <!-- Ícone do troféu -->
+        <img id="trofeu" src="./img/trophy.png" alt="ícone de um troféu" style="display:none;" />
+
+        <!-- Textos dinâmicos -->
+        <div class="container__texto">
+          <h1 id="titulo">Jogo do Número Secreto</h1>
+          <h2 id="subtitulo">Quer jogar?</h2>
+        </div>
+
+        <!-- Input e botões -->
+        <div class="container__acoes">
+          <input id="inputPalpite" type="number" placeholder="Digite seu palpite" min="1" max="100" style="display:none;" disabled />
+          <button id="btnChutar" style="display:none;" disabled>Chutar</button>
+          <button id="btnStart">Iniciar Jogo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+
+
