@@ -16,6 +16,16 @@
 
 ---
 
+## 🏷 Badges
+
+![Último commit](https://img.shields.io/github/last-commit/lbarbatto/imersao-devops-jogo-numero-secreto)
+![Versão](https://img.shields.io/badge/version-1.0.0-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Site](https://img.shields.io/badge/site-GitHub%20Pages-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+---
+
 ## 📌 Sobre
 
 Este repositório faz parte do meu processo de estudos em DevOps na Santander Imersão Digital (Alura). É um minigame web simples: você tenta adivinhar um número secreto entre 1 e 100. Além do jogo, o foco aqui é treinar organização de repositório, documentação, segurança e deploy com GitHub Pages.
@@ -49,7 +59,8 @@ Este repositório faz parte do meu processo de estudos em DevOps na Santander Im
 **Pré-requisitos:** navegador moderno (Chrome, Firefox, Edge, Safari).
 
 1. **Clonar repositório**
-git clone https://github.com/lbarbatto/imersao-devops-jogo-numero-secreto.git cd imersao-devops-jogo-numero-secreto
+- git clone https://github.com/lbarbatto/imersao-devops-jogo-numero-secreto.git
+- cd imersao-devops-jogo-numero-secreto
 
 Código
 2. **Abrir localmente**
@@ -63,6 +74,8 @@ Código
 ---
 
 ## 🚀 Deploy com GitHub Pages
+![GitHub Pages](https://img.shields.io/github/deployments/lbarbatto/imersao-devops-jogo-numero-secreto/github-pages?label=pages&logo=github)
+
 
 1. Confirme que seu projeto está na branch `main`.
 2. No GitHub, vá em **Settings > Pages**.
@@ -107,12 +120,11 @@ Este projeto está sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
 
 ---
 
-## 📷 Capturas (opcional)
+## 📷 Capturas de Tela
 
-Inclua aqui GIFs ou imagens do gameplay:
-- `img/screenshot-1.png`
-- `img/screenshot-2.png`
-- `img/screenshot-3.png`
+![Tela inicial do jogo](./img/screenshot-1.png)  
+![Tentativa de palpite](./img/screenshot-2.png)  
+![Mensagem de acerto com troféu](./img/screenshot-3.png)
 
 ---
 
@@ -124,10 +136,3 @@ Inclua aqui GIFs ou imagens do gameplay:
 - **Config:** permitir ajustar intervalo (1–N)
 - **Analytics:** eventos básicos (acertos, tentativas)
 
----
-
-## 🏷 Badges
-
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Site](https://img.shields.io/badge/site-GitHub%20Pages-blue)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
