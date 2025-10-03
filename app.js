@@ -60,7 +60,6 @@ function verificarPalpite() {
     subtitulo.textContent = `O número era ${numeroSecreto}. Você acertou em ${tentativas} tentativas!`;
     trofeu.style.display = "block";
 
-    jogando = false;
     inputPalpite.disabled = true;
     inputPalpite.style.display = "none";
     btnChutar.disabled = true;
